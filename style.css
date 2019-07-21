@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+.page1 {
+  height: 100vh;
+  background-image: url('https://i.ibb.co/924T2Wv/night.jpg');
+  background-size: cover;
+  background-position: center;
+  font-weight: 700;
+}
+.flex-box {
+  display: flex;
+  flex-direction: column;
+  /* background-color: rgba(0, 255, 255, 0.2); */
+  height: inherit;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  opacity: 0.75;
+  font-size: calc(100vw / 16);
+}
+/* DEFAULT CSS ENDS HERE------------------------------------------------------------------------ */
+/*MEDIA QUERIES-------------------*/
+@media (max-height: 1200px) {
+  .dayTime {
+    margin-top: calc(100vh / 6);
+  }
+}
+@media (max-height: 750px) {
+  .dayTime {
+    margin-top: calc(100vh / 15);
+  }
+}
+@media (max-height: 200px) {
+  .dayTime {
+    margin-top: calc(100vh / 20);
+  }
+}
+/*FOR THE WIDTH---------------------- */
+@media (max-width: 700px) {
+  .dayTime {
+    font-size: calc(100vw / 14);
+  }
+}
+@media (max-width: 600px) {
+  .dayTime {
+    font-size: calc(100vw / 13);
+  }
+}
+@media (max-width: 500px) {
+  .dayTime {
+    font-size: calc(100vw / 12);
+  }
+}
+@media (max-width: 400px) {
+  .dayTime {
+    font-size: calc(100vw / 11);
+  }
+}
+@media (max-width: 300px) {
+  .dayTime {
+    font-size: calc(100vw / 10);
+  }
+}
